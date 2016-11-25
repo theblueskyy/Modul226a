@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="671.0" style="-fx-background-color: #A9D0F5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.AppController">
+  <children>
+    <Line fx:id="line1" endX="7.0" endY="0.0" layoutX="229.0" layoutY="258.0" startX="-100.0" visible="false" />
+    <Line fx:id="line2" endX="121.0" endY="0.0" layoutX="172.0" layoutY="146.0" rotate="270.0" startX="-100.0" visible="false" />
+    <Line fx:id="line3" endX="100.0" layoutX="283.0" layoutY="36.0" startX="-100.0" visible="false" />
+    <Line fx:id="line4" endX="-73.0" endY="0.0" layoutX="424.0" layoutY="51.0" rotate="270.0" startX="-100.0" visible="false" />
+    <Circle fx:id="line5" fill="DODGERBLUE" layoutX="339.0" layoutY="86.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+    <Line fx:id="line6" endX="-23.0" endY="0.0" layoutX="399.0" layoutY="146.0" rotate="90.0" startX="-100.0" visible="false" />
+    <Line fx:id="line10" endX="-47.0" endY="0.0" layoutX="427.0" layoutY="206.0" rotate="51.0" startX="-100.0" visible="false" />
+    <Line fx:id="line7" endX="-50.90473175048828" endY="-2.1244616508483887" layoutX="428.0" layoutY="136.0" rotate="51.0" startX="-100.0" visible="false" />
+    <Line fx:id="line8" endX="-50.7495231628418" endY="3.142937183380127" layoutX="398.0" layoutY="135.0" rotate="122.0" startX="-100.0" visible="false" />
+    <Line fx:id="line9" endX="-47.0" endY="0.0" layoutX="394.0" layoutY="206.0" rotate="129.0" startX="-100.0" visible="false" />
+    <TextField fx:id="mTextField" layoutX="195.0" layoutY="354.0" onKeyReleased="#keyReleased" opacity="0.0" prefWidth="200.0" />
+    <Label fx:id="mLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="174.0" layoutY="307.0" prefHeight="53.0" prefWidth="323.0" text="">
+         <font>
+            <Font size="45.0" />
+         </font></Label>
+      <HBox fx:id="mHBox" layoutX="43.0" layoutY="391.0" prefHeight="100.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
